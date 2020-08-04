@@ -7,15 +7,15 @@ function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 185,
-    height: 200,
+    height: 280,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true
     },
     frame: false, 
     transparent: true,
-    x: 1765,
-    y: 5
+    x: 1705,
+    y: 325
   })
 
   // and load the index.html of the app.

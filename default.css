@@ -7,6 +7,7 @@ h1 {
     font-size: 12px;
     color: blueviolet;
     font-family: 'Segoe UI';
+    text-shadow: 0px 0px 3px darkorchid;
 }
 span {
     font-size: 7;
@@ -14,8 +15,42 @@ span {
     font-family: 'Segoe UI';
 }
 
+
+
 div {
     flex: auto;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid dimgray;
+}
+
+.parent {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+#avgmin {
+    color: cyan;
+    text-shadow: 0px 0px 3px lightcyan;
+}
+
+#avgseg {
+    color: cyan;
+    text-shadow: 0px 0px 3px lightcyan;
+}
+
+#segs {
+    color: cyan;
+    text-shadow: 0px 0px 3px lightcyan;
+}
+
+#dbg {
+    color: cyan;
+    text-shadow: 0px 0px 3px lightcyan;
 }
