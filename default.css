@@ -1,0 +1,21 @@
+* {
+    overflow: hidden;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+
+h1 {
+    font-size: 12px;
+    color: blueviolet;
+    font-family: 'Segoe UI';
+}
+span {
+    font-size: 7;
+    color: blue;
+    font-family: 'Segoe UI';
+}
+
+div {
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
